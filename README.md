@@ -1,13 +1,13 @@
 reactiondatabase
 ==============================
 
-A database of reaction properties containing the atom-mapped reaction SMILES and the target properties. This repository belongs to the manuscript[Machine learning of reaction properties via learned representations of the condensed graph of reaction](), a detailed description of the datasets and their respective preprocessing is available in the article.
+A database of reaction properties containing the atom-mapped reaction SMILES and the target properties. This repository belongs to the manuscript [Machine learning of reaction properties via learned representations of the condensed graph of reaction](https://chemrxiv.org/engage/chemrxiv/article-details/6112ac487117507542e68bef), a detailed description of the datasets and their respective preprocessing is available in the article.
 
 ### Reaction database
 
 All reactions can be found in the `data` folder as CSV files.
 
-Activation energies E2/S_N2 reactions
+Activation energies E2/S<sub>N</sub>2 reactions
 -------------------------------------
 Data extracted from [DOI:10.1088/2632-2153/aba822](https://doi.org/10.1088/2632-2153/aba822), CCSD level of theory. Atom-mapped manually.
 
@@ -28,11 +28,11 @@ Data extracted from [DOI:10.1073/pnas.1423570112](https://doi.org/10.1073/pnas.1
 
 To reproduce the exact results in the manuscript, the folder `data_splits` holds the exact data splits into training, validation and test set. Per database, five folds of splits are reported. The folder `models` reports the CGR GCNN (default hyperparameters) models for each dataset, one for each data split. Unpack the directories you plan to use. Note that for USPTO-1K-TPL, the individual folds are archieved instead of the full folder to limit the filesize. The `data_splits` and `models` folders also hold splits for three databases not reported in the `data` folder, namely:
 
-Activation energies \omega B97X-D3
+Activation energies &omega;B97X-D3
 -------------------------------------
-Data extracted from [DOI:10.1038/s41597-020-0460-4](https://doi.org/10.1038/s41597-020-0460-4), at the \omega B97X-D3/def2-TZVP level of theory (and B97-D3/def2-mSVP for pretraining).
+Data extracted from [DOI:10.1038/s41597-020-0460-4](https://doi.org/10.1038/s41597-020-0460-4), at the &omega;B97X-D3/def2-TZVP level of theory (and B97-D3/def2-mSVP for pretraining).
 
-Activation energies S_NAr
+Activation energies S<sub>N</sub>Ar
 ----------------------------
 Data extracted from [DOI:10.1039/D0SC04896H](https://doi.org/10.1039/D0SC04896H).
 
