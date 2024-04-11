@@ -1,7 +1,7 @@
 reactiondatabase
 ==============================
 
-A database of reaction properties containing the atom-mapped reaction SMILES and the target properties. This repository belongs to the manuscript [Machine learning of reaction properties via learned representations of the condensed graph of reaction](https://chemrxiv.org/engage/chemrxiv/article-details/6112ac487117507542e68bef), a detailed description of the datasets and their respective preprocessing is available in the article.
+A database of reaction properties containing the atom-mapped reaction SMILES and the target properties. This repository belongs to the manuscript [Machine learning of reaction properties via learned representations of the condensed graph of reaction](https://doi.org/10.1021/acs.jcim.1c00975), a detailed description of the datasets and their respective preprocessing is available in the article.
 
 ### Reaction database
 
